@@ -24,4 +24,7 @@ ___***More info to come about how to compare this to city census demographics___
 #### What race/gender group was most likely to be searched? Arrested? Cited? Warned? 
 * Create pivot table with Rows "Year" and "Enforcement", Column "Race" and Values COUNTA of "IncidentNumber"
 * Paste into new tab, put "not listed" at the end of the row before grand total
+**Only arrests**
+* Create Pivot table with Rows "year" and "enforcement", Column "Race" and Values COUNTA of "IncidentNumber". Filter "Enforcement" for only arrests
+* Paste into new sheet, create new columns for percentage of total to see if there's disproportionate rates for each race
 #### How do the percentages compare after the Berkeley city council ordinance passed?
