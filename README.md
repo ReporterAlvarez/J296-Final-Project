@@ -10,13 +10,10 @@ Berkeley Police Stop Data 2015-2022
 * In the city column, change 2 cells with "Berkeley" to "BERKELEY"
 ## Spreadsheet 2: Police stops from October 2020 to April 2022
 * Trim white spaces from all cells
-* Under "Information Based Stop" column change "(blank)" cells to "not-listed"
 * Under "If K12 School Is Stop of a student" change "(blank)" cells to "N/A"
   * 8978 blank cells match the number of "false" cells under the "Is Location a K12 Public School" column
-* Under "School Name" column change "(blank)" cells to "N/A"
-* Under "Education Code Section" column change "(blank)" cells to "N/A"
-* Under "Education Code Subdivision" column change "(blank)" cells to "N/A"
-* Under "Perceived Gender", "Traffic Violation Type", "Traffic Violation Offense Codes", "Suspicion Offense Code", "Suspicion SubType", "Basis for Search", "Basis for Search Narrative", "Basis for Property Seizure", "Type of Property Seized", "Other Contraband Desc", "Warning Offense Codes", "Citation Offense Codes", "In field cite and release offense codes", "Custodial arrest Offense codes" columns change "(blank)" cells to "not-listed"
+* Under "School Name", "Education Code Section","Education Code Subdivision"  columns change "(blank)" cells to "N/A"
+* Change blank cells to "not-listed" under the following column heads: "Information Based Stop", "Perceived Gender", "Traffic Violation Type", "Traffic Violation Offense Codes", "Suspicion Offense Code", "Suspicion SubType", "Basis for Search", "Basis for Search Narrative", "Basis for Property Seizure", "Type of Property Seized", "Other Contraband Desc", "Warning Offense Codes", "Citation Offense Codes", "In field cite and release offense codes", "Custodial arrest Offense codes"
 * In "Perceived Race or Ethnicity" column change 175 cells where officers noted two or more races to "Multiple-Races"
 * In "Result of Stop" create a new column titled "Enforcement"
 * Simplify cells into "Citation" "Warning" "Arrest" "Psychiatric hold"
@@ -38,14 +35,47 @@ Berkeley Police Stop Data 2015-2022
 * Divide dates and times in the "Createdatetime" column into two separate columns using "split text to columns"
 * Create a new column for "Year"
 * Copy/Paste "Date" Column into "Year" column. Create custom time format "20'Year(30)'". Format as "plain text", then format as number "0000"
+* Create a new column for "Month-Year"
 
 ## Spreadsheet 2:
+
 * Create a new column for "Year"
 * Copy/Paste "Date" Column into "Year" column. Create custom time format "20'Year(30)'". Format as "plain text", then format as number "0000"
-### Questions
-#### 1. How many traffic stops were there per year/month? How much did that change with Covid, and How much did that change with the ordinance passed in February 2021?
-* In pivot table, under Rows put "Month-Year" and under values put COUNTA of "IncidentNumber"
-* Copy/Paste into a new sheet
-* Quick Visualization of the results
+* Create a new column for "Month-Year"
+
+# Questions
+## 1. How many traffic stops were there per year/month? How much did that change with Covid, and How much did that change with the ordinance passed in February 2021?
+* For Spreadsheet 1 and Spreadsheet 2, create a pivot table. Under Rows put "Month-Year" and under Values put COUNTA of "IncidentNumber"
+* Copy/Paste and combine into a new spreadsheet (Spreadsheet 3)
 * _Three SCREENSHOTS of yearly/monthly stops_ 5:50 PM or so
-#### How many arrests/warnings/citations were there per year?
+ANSWER: On a monthly basis, Berkeley police stopped 697 to 1,206 individuals per month, from October 2019 to January 2020. After the onset of the pandemic, trafficc stops dropped as low as 64 stops in April 2020 and 36 stops in August 2020. The number of monthly stops rebounded, but is yet to pass the peaks seen in the period from 2015 to 2020. From November 2021 to March 2022, monthly traffic stops ranced from 376 to 544
+## How many arrests/warnings/citations were there per year (spreadsheet 1)? Per month (Spreadsheet 2?)
+The two spreadsheets were analyzed separately because enforcement data is categorized differently, and because the two spreadsheets include different ranges of time.
+* Create a pivot table with Rows of "Year", Column as "Enforcement", and Values as COUNTA of "IncidentNumber"
+* NOTE: Data for 2015 begins on Jan. 26, 2015. Data for 2020 ends on Sept. 30, 2020.
+INSERT SCREENSHOT 5:06 PM
+* Create a pivot table with Rows of "Month-Year", Column as Enforcement and "Enforcement", and Values of COUNTA of "LEA Record ID"
+* INSERT SCREETSHOT 5:21 PM
+## 3. What are the racial demographics of who gets stopped, arrested, cited, warned or other in Berkeley, and how does that compare to the city’s census demographics? 
+Spreadsheet 1, by year
+* Create a pivot table with Rows of "Year" and "Enforcement", Columns of "Race" and Values of COUNTA of "IncidentNumber"
+* Show values as a percentage of row
+* Filter out 359 cells that do not list Race and the same 359 cells that do no list what kind of enforcement occured.
+SCREENSHOT 5:27 PM
+* Copy/Paste into a new sheet. Add four new columns for census data for "Asian, Black, Hispanic and White" categories per the 5-year American Community Survey
+* Insert ACS data respective to each year. Use percentages under "Race alone or in combination with one or more other races"
+* There isn't a comparable category in the ACS for the "Other" category in the Berkeley police data, so don't do a comparison there
+INSERT SCREENSHOT 7:11 PM
+INSERT SCREENSHOT 7:17 PM
+ANSWER: From 2015 to 2020, Black drivers were stopped at disproportionate rates compared to other races, while Asian and White drivers were stopped less, arrested less and cited at lower rates. Hispanic drivers were pulled over at a rate roughly equal to the census demographics for the city. These disparities have continued in 2020, 2021 and 2022 so far
+## 4. Are some racial demographics more likely to be searched during a police stop?
+Spreadsheet 1
+* Create Pivot table with Row as "Race", Columns as "Car Search" and Values as COUNTA of IncidentNumber
+INSERT SCREENSHOT 7:25 PM
+ANSWER: From 2015-2020, about 15% of all traffic stops resulted in police performing a car search. Black drivers were most likely to have undergo a car search, including 24.1% of all stops while Asian drivers were the least likely with 5.7% of stops resulting in a search. The rate of car searches was less than the portion of all stops most racial demographics made up (e.g. Black drivers made up 24.1% of stops but were 33.9% of all stops). The only exception was Hispanic drivers, who made up 12.9% of all traffic stops, and saw 16.3% of all car searches. 
+## 5. Did the number of people who get stopped change after Feb. 24, 2021, when Berkeley voted to limit low-level traffic stops? Did the number of warnings, citations and arrests change after February 24??
+
+## 6. Did the “reason” for traffic stops change after Feb. 2021?
+* Create Pivot Table with Rows as Month-Year, Columns as Reason for Stop, Values and LEA Record ID
+ANSWER: No large and immediate changes, though there may be a small dip in the number of "reasonable suspicion" stops and a small uptick in "traffic violation" stops
+SCREEN SHOT ROUGHLY 7:52 PM
