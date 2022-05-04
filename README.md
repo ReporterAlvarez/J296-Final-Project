@@ -1,19 +1,65 @@
 # J296 Final Project
-**Racial Disparities Persist in Berkeley Police Traffic Stops**
-<br>_By Felicia Alvarez_<br>
-![Berkeley Police Department](/header-image.png)
-<br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to March 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and which stops end in an a vehicle search or arrest. <br><br>The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic stops. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
+The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to March 2022. The Berkeley City Council captured national headlines last year when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic stops. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
 <br><br>
 Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 <br>Berkeley Police Department Stop Data 10/1/2020 to 4/18/2022
 <br>ASC 5-year Estimates 2015-2020
-# Cleaning the data in OpenRefine
-## Spreadsheet 1: Police stops from January 2015 to September 2020
+# Racial Disparities Persist in Berkeley Police Traffic Stops
+<br>_By Felicia Alvarez_<br>
+![Berkeley Police Department](/header-image.png)<br>
+
+Black and Latino drivers have long faced disproportionate rates of traffic stops by police in the city of Berkeley. While Berkeley leaders have made a series of efforts to reduce those disparities, racial divides remain persistent in who gets stopped, searched or arrested by Berkeley police during a traffic stop. 
+<br>
+The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops. By directing police to only pull over drivers for the most egregious public safety risks, they hoped to lessen the racial disparities long seen in the city’s traffic stop data.
+<br>
+In the year after that initiative passed, however, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
+<br>
+Whereas Black residents only make up 10.5% of the city of Berkeley, Black drivers made up 37.3% of all police stops, according to an analysis of Berkeley police stop data. Latino drivers were also overrepresented in police stops,  making up 16.4% of stops compared to 10.9% of the city’s population, according to the U.S. Census Bureau.
+<br>
+During the same period, white and Asian drivers were underrepresented in police stop data. White drivers made up 38.8% of stops while comprising of 65.2% of the population and Asian made up 7.5% of stops compared to 25.4% of the population.
+<br>
+![RaceStops](/VIZ_1.png)<br>
+<br>
+“There’s a disproportionality and that’s not okay,” said Berkeley Mayor Jesse Arreguín.
+<br>
+The mayor added that while the data still shows disparities, he believes the city’s recent police reforms are working and need more time.
+<br>
+“It is still early,” Arreguín said. “We are still implementing this new approach I think it’s going to be awhile before we see the outcomes in the data.”
+<br>
+Overall the disparities in who gets stopped by police have slimmed slightly. Black drivers made up 41% of all stops in February 2021 and 37% of stops in March 2022. Arrests have fluctuated over the last year, but overall Black drivers still comprise a disproportionate amount of arrests in the city compared to the city's demographics. In June 2021 and September 2021, Black drivers made up over half of the police stops that ended in an arrest. In the most recent two months -- February and March 2022 -- those percentages have dropped to below 40%.
+<br>
+The package of police reforms passed by city leaders in February 2021 was largely aimed at redirecting the “reason” for traffic stops away from “low-level” reasons such as broken tail light and more towards dangerous driving that poses a risk to public safety, according to city staff reports at the time of the vote.
+<br>
+Recent data tracking the “reason” for conducting a traffic shows fluctuations in why police pulled over a driver. From October 2021 to March 2022 the number of stops that were conducted roughly doubled to 342 stops per month. During the same period of time the number of stops conducted based on “reasonable suspicion” remained stagnant.
+<br>
+![RaceStops](/VIZ_2.png)
+<br>
+Racial disparities in police stops have been well-documented in the city of Berkeley over the last decade. In 2018, the Center for Policing Equity, a non-profit research center based out of Yale University, compiled a detailed analysis of the Berkeley Police Department’s patterns in traffic stops, using data dating back to 2012.
+<br>
+At the time, the center found that Black and Latino drivers were stopped and searched at disproportionate rates compared to white and Asian drivers.
+<br>
+“The higher overall rates of stop, search, and arrest of Black and Hispanic drivers could reflect a pattern of policing discretion that is less forgiving of minor crime,” the Center for Policing Equity’s 2018 report states.
+<br>
+“Our findings are consistent with the possibility that Black and Hispanic drivers might face criminal charges in circumstances where a White driver might have received only a citation.”
+<br>
+The center also found that while police searched Black drivers at higher rates, stops with a vehicle search did not yield higher rates of arrests compared to other racial groups. The racial divide in search and arrest rates was one of several findings the center described as “opportunities for improvement.”
+<br>
+“I’m kind of frustrated, I feel like we’re sort of maing little process,” said Councilmember Kate Harrison.
+<br>
+Harrison was part of a coalition of city leaders that led the police reform effort in 2021. While she’s still supportive of the policy, she acknowledged that it doesn’t solve the greater issue of racism among the residents making calls for service into local police.
+<br>
+“You have to deal with racism itself that comes from the public and all of us,” Harrison said. “How do you deal with that? I don’t know.”
+<br>
+Representatives from the Berkeley Police Department did not respond to requests for comment. 
+
+# Data Diary 
+## Cleaning the data in OpenRefine
+### Spreadsheet 1: Police stops from January 2015 to September 2020
 * Trim white spaces from all cells, except "Createdatetime" column
 * In the Race, Gender, Age, Reason, Enforcement and Car Search columns, change 359 cells with "0" to "not-listed"
 * Change all "(blank)" cells to "not-listed"
 * In the city column, change 2 cells with "Berkeley" to "BERKELEY"
-## Spreadsheet 2: Police stops from October 2020 to April 2022
+### Spreadsheet 2: Police stops from October 2020 to April 2022
 * Trim white spaces from all cells
 * Under "If K12 School Is Stop of a student" change "(blank)" cells to "N/A"
   * 8978 blank cells match the number of "false" cells under the "Is Location a K12 Public School" column
@@ -33,16 +79,16 @@ Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
        *   No action occured on 1505 police stops
    * "Other" category includes officer actions like non-criminal transport or caretaking transport, contacting a parent or guardian, interview card completed.
 
-# Working with the data in Google Sheets
+## Working with the data in Google Sheets
 
-## Spreadsheet 1:
+### Spreadsheet 1:
 
 * Divide dates and times in the "Createdatetime" column into two separate columns using "split text to columns"
 * Create a new column for "Year"
 * Copy/Paste "Date" Column into "Year" column. Create custom time format "20'Year(30)'". Format as "plain text", then format as number "0000"
 * Create a new column for "Month-Year"
 
-## Spreadsheet 2:
+### Spreadsheet 2:
 
 * Create a new column for "Year"
 * Copy/Paste "Date" Column into "Year" column. Create custom time format "20'Year(30)'". Format as "plain text", then format as number "0000"
