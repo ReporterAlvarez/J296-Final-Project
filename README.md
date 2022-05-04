@@ -1,5 +1,5 @@
 # J296 Final Project
-## Racial Divisions Persist in Berkeley Police Traffic Stops**
+**Racial Divisions Persist in Berkeley Police Traffic Stops**
 _By Felicia Alvarez_
 <br><br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to April 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and what reasons police use to pull people over and search their vehicles. The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
 <br><br>
@@ -82,3 +82,10 @@ ANSWER: From 2015-2020, about 15% of all traffic stops resulted in police perfor
 * Create Pivot Table with Rows as Month-Year, Columns as Reason for Stop, Values and LEA Record ID
 ANSWER: No large and immediate changes, though there may be a small dip in the number of "reasonable suspicion" stops and a small uptick in "traffic violation" stops
 SCREEN SHOT ROUGHLY 7:52 PM
+## 6) Did the racial demographics of who gets pulled over change after Feb. 24, 2021, when Berkeley voted to limit low-level traffic stops? Did the demographics of who gets stopped, cited or arrested change after February 24, 2021?
+* Spreadsheet 2: Create a pivot table with Rows of "Month-Year" and "Enforcement", Columns of "Perceived Race" and Values of COUNTA of "LEA Record ID"
+* Copy/Paste data into a spreadsheet. Sort "Month-Year" by A-Z and filter for only "Arrest"
+INSERT SCREENSHOT 11:23 PM
+INSERT SCREENSHOT 11:35 PM
+INSERT SCREENSHOT 11:42 PM
+ANSWER: Overall the disparities in who gets stopped by police have slimmed slightly. Black drivers made up 41% of all stops in February 2021 and 37% of stops in March 2022. Arrests have fluctuated over the last year, but overall Black drivers still comprise a disproportionate amount of arrests in the city compared to the city's demographics. In June 2021 and September 2021, Black drivers made up over half of the police stops that ended in an arrest. In the most recent two months -- February and March 2022 -- those percentages have dropped to below 40%. 
