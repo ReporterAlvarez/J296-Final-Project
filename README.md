@@ -98,10 +98,11 @@ Spreadsheet 1
 ## 6) Did the racial demographics of who gets pulled over change after Feb. 24, 2021, when Berkeley voted to limit low-level traffic stops? Did the demographics of who gets stopped, cited or arrested change after February 24, 2021?
 * Spreadsheet 2: Create a pivot table with Rows of "Month-Year" and "Enforcement", Columns of "Perceived Race" and Values of COUNTA of "LEA Record ID"
 * Copy/Paste data into a spreadsheet. Sort "Month-Year" by A-Z and filter for only "Arrest"
-### Monthly number of stops from 2020-2022
-![RacialEnforcement](/QUESTION_6C.png)
-### Monthly number of arrests from 2020-2022
-![RacialEnforcement](/QUESTION_6A.png)
-### Monthly number of citations from 2020-2022
-![RacialEnforcement](/QUESTION_6B.png)
+* Filter "Month-Year" to only include March 2021-March 2022
+### Monthly number of stops from March 2021 to March 2022
+![RacialEnforcement](/QUESTION_7.png)
+### Monthly number of arrests from March 2021 to March 2022
+![RacialEnforcement](/QUESTION_8.png)
+### Monthly number of citations from March 2021 to March 2022
+![RacialEnforcement](/QUESTION_8.png)
 <br>**ANSWER:** Overall the disparities in who gets stopped by police have slimmed slightly. Black drivers made up 41% of all stops in February 2021 and 37% of stops in March 2022. Arrests have fluctuated over the last year, but overall Black drivers still comprise a disproportionate amount of arrests in the city compared to the city's demographics. In June 2021 and September 2021, Black drivers made up over half of the police stops that ended in an arrest. In the most recent two months -- February and March 2022 -- those percentages have dropped to below 40%. 
