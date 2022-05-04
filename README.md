@@ -1,5 +1,10 @@
-# J296-Final-Project
-Berkeley Police Stop Data 2015-2022
+# J296 Final Project
+## Racial Divisions Persist in Berkeley Police Traffic Stops**
+_By Felicia Alvarez_
+<br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to April 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and what reasons police use to pull people over and search their vehicles. The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
+<br>
+Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
+<br>Berkeley Police Department Stop Data 10/1/2020 to 4/18/2022
 <br>ASC 5-year Estimates 2015-2020
 * Using estimates for "Race Alone or in combination with one or more other races"
 # Cleaning the data in OpenRefine
@@ -20,12 +25,12 @@ Berkeley Police Stop Data 2015-2022
    *  Officers inputed 65 different options under the result of the arrest
    *  If cells included multiple results, they were categorized as the most severe category listed. For example, five cells that noted a citation and contacting a parent or legal guardian took place, were categorized under the "Citation" category.
     *   The order of severity is 1) Arrest 2) Cite and Release 3) Citation 4) Warning 5) Psychiatric hold 6) Other
-      *   Arrest category grew from 252 to 1262
-      *   Cite and Release category grew from 303 to 329
-      *   Citation category grew from 2126 to 2161
-      *   Warning category grew from 3091 to 3154
-      *   Psychiatric hold grew from 393 to 428
-      *   No action occured on 1505 police stops
+       *   Arrest category grew from 252 to 1262
+       *   Cite and Release category grew from 303 to 329
+       *   Citation category grew from 2126 to 2161
+       *   Warning category grew from 3091 to 3154
+       *   Psychiatric hold grew from 393 to 428
+       *   No action occured on 1505 police stops
    * "Other" category includes officer actions like non-criminal transport or caretaking transport, contacting a parent or guardian, interview card completed.
 
 # Working with the data in Google Sheets
