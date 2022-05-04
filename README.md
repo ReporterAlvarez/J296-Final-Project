@@ -1,9 +1,10 @@
 # J296 Final Project
 **Racial Divisions Persist in Berkeley Police Traffic Stops**
 _By Felicia Alvarez_
-<br><br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to April 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and what reasons police use to pull people over and search their vehicles. The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
+![Berkeley Police Department](/header-image.png)
+<br><br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to April 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and what reasons police use to pull people over and search their vehicles. <br><br>The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
 <br><br>
-Sources: <br><br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
+Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 <br>Berkeley Police Department Stop Data 10/1/2020 to 4/18/2022
 <br>ASC 5-year Estimates 2015-2020
 * Using estimates for "Race Alone or in combination with one or more other races"
@@ -53,6 +54,9 @@ Sources: <br><br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 * For Spreadsheet 1 and Spreadsheet 2, create a pivot table. Under Rows put "Month-Year" and under Values put COUNTA of "IncidentNumber"
 * Copy/Paste and combine into a new spreadsheet (Spreadsheet 3)
 * _Three SCREENSHOTS of yearly/monthly stops_ 5:50 PM or so
+
+![AnnualStops](/QUESTION_1_A.png)
+
 ANSWER: On a monthly basis, Berkeley police stopped 697 to 1,206 individuals per month, from October 2019 to January 2020. After the onset of the pandemic, trafficc stops dropped as low as 64 stops in April 2020 and 36 stops in August 2020. The number of monthly stops rebounded, but is yet to pass the peaks seen in the period from 2015 to 2020. From November 2021 to March 2022, monthly traffic stops ranced from 376 to 544
 ## 2) How many arrests/warnings/citations were there per year (spreadsheet 1)? Per month (Spreadsheet 2?)
 The two spreadsheets were analyzed separately because enforcement data is categorized differently, and because the two spreadsheets include different ranges of time.
