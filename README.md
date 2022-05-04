@@ -9,47 +9,48 @@ Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 ![Berkeley Police Department](/header-image.png)<br>
 
 Black and Latino drivers have long faced disproportionate rates of traffic stops by police in the city of Berkeley. While Berkeley leaders have made a series of efforts to reduce those disparities, racial divides remain persistent in who gets stopped, searched or arrested by Berkeley police during a traffic stop. 
-<br>
+<br><br>
 The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops. By directing police to only pull over drivers for the most egregious public safety risks, they hoped to lessen the racial disparities long seen in the city’s traffic stop data.
-<br>
+<br><br>
 In the year after that initiative passed, however, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
-<br>
+<br><br>
 Whereas Black residents only make up 10.5% of the city of Berkeley, Black drivers made up 37.3% of all police stops, according to an analysis of Berkeley police stop data. Latino drivers were also overrepresented in police stops,  making up 16.4% of stops compared to 10.9% of the city’s population, according to the U.S. Census Bureau.
-<br>
+<br><br>
 During the same period, white and Asian drivers were underrepresented in police stop data. White drivers made up 38.8% of stops while comprising of 65.2% of the population and Asian made up 7.5% of stops compared to 25.4% of the population.
-<br>
+<br><br>
 ![RaceStops](/VIZ_1.png)<br>
 <br>
 “There’s a disproportionality and that’s not okay,” said Berkeley Mayor Jesse Arreguín.
-<br>
+<br><br>
 The mayor added that while the data still shows disparities, he believes the city’s recent police reforms are working and need more time.
-<br>
+<br><br>
 “It is still early,” Arreguín said. “We are still implementing this new approach I think it’s going to be awhile before we see the outcomes in the data.”
-<br>
+<br><br>
 Overall the disparities in who gets stopped by police have slimmed slightly. Black drivers made up 41% of all stops in February 2021 and 37% of stops in March 2022. Arrests have fluctuated over the last year, but overall Black drivers still comprise a disproportionate amount of arrests in the city compared to the city's demographics. In June 2021 and September 2021, Black drivers made up over half of the police stops that ended in an arrest. In the most recent two months -- February and March 2022 -- those percentages have dropped to below 40%.
-<br>
+<br><br>
 The package of police reforms passed by city leaders in February 2021 was largely aimed at redirecting the “reason” for traffic stops away from “low-level” reasons such as broken tail light and more towards dangerous driving that poses a risk to public safety, according to city staff reports at the time of the vote.
-<br>
+<br><br>
 Recent data tracking the “reason” for conducting a traffic shows fluctuations in why police pulled over a driver. From October 2021 to March 2022 the number of stops that were conducted roughly doubled to 342 stops per month. During the same period of time the number of stops conducted based on “reasonable suspicion” remained stagnant.
 <br>
-![RaceStops](/VIZ_2.png)
-<br>
+![ReasonStops](/VIZ_2.png)
+<br><br>
+
 Racial disparities in police stops have been well-documented in the city of Berkeley over the last decade. In 2018, the Center for Policing Equity, a non-profit research center based out of Yale University, compiled a detailed analysis of the Berkeley Police Department’s patterns in traffic stops, using data dating back to 2012.
-<br>
+<br><br>
 At the time, the center found that Black and Latino drivers were stopped and searched at disproportionate rates compared to white and Asian drivers.
-<br>
+<br><br>
 “The higher overall rates of stop, search, and arrest of Black and Hispanic drivers could reflect a pattern of policing discretion that is less forgiving of minor crime,” the Center for Policing Equity’s 2018 report states.
-<br>
+<br><br>
 “Our findings are consistent with the possibility that Black and Hispanic drivers might face criminal charges in circumstances where a White driver might have received only a citation.”
-<br>
+<br><br>
 The center also found that while police searched Black drivers at higher rates, stops with a vehicle search did not yield higher rates of arrests compared to other racial groups. The racial divide in search and arrest rates was one of several findings the center described as “opportunities for improvement.”
-<br>
+<br><br>
 “I’m kind of frustrated, I feel like we’re sort of maing little process,” said Councilmember Kate Harrison.
-<br>
+<br><br>
 Harrison was part of a coalition of city leaders that led the police reform effort in 2021. While she’s still supportive of the policy, she acknowledged that it doesn’t solve the greater issue of racism among the residents making calls for service into local police.
-<br>
+<br><br>
 “You have to deal with racism itself that comes from the public and all of us,” Harrison said. “How do you deal with that? I don’t know.”
-<br>
+<br><br>
 Representatives from the Berkeley Police Department did not respond to requests for comment. 
 
 # Data Diary 
