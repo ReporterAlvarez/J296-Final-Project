@@ -5,7 +5,7 @@ Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 <br>Berkeley Police Department Stop Data 10/1/2020 to 4/18/2022
 <br>ASC 5-year Estimates 2015-2020
 <br><br>
-[Data Vizualization}(https://infogram.com/berkeley-police-stops-1h8n6m3500kjz4x?live)<br>
+[Data Vizualization](https://infogram.com/berkeley-police-stops-1h8n6m3500kjz4x?live)<br>
 
 # Racial Disparities Persist in Berkeley Police Traffic Stops
 <br>_By Felicia Alvarez_<br>
