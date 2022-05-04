@@ -2,8 +2,7 @@
 **Racial Divisions Persist in Berkeley Police Traffic Stops**
 <br>_By Felicia Alvarez_<br>
 ![Berkeley Police Department](/header-image.png)
-
-<br><br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to March 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and which stops end in an a vehicle search or arrest. <br><br>The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic stops. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
+<br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to March 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and which stops end in an a vehicle search or arrest. <br><br>The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic stops. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
 <br><br>
 Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 <br>Berkeley Police Department Stop Data 10/1/2020 to 4/18/2022
@@ -59,7 +58,7 @@ Sources: <br> Berkeley Police Department Stop Data 1/26/2015 to 9/30/2020
 ![MonthlyStops](/QUESTION_1_B.png)
 ### Combined Monthly Traffic Stop Data 2015 - March 2022
 ![CombinedMonthlyStops](/QUESTION_1_D.png)<br>
-**ANSWER** On a monthly basis, Berkeley police stopped 697 to 1,206 individuals per month, from October 2019 to January 2020. After the onset of the pandemic, trafficc stops dropped as low as 64 stops in April 2020 and 36 stops in August 2020. The number of monthly stops rebounded, but is yet to pass the peaks seen in the period from 2015 to 2020. From November 2021 to March 2022, monthly traffic stops ranced from 376 to 544
+**ANSWER:** On a monthly basis, Berkeley police stopped 697 to 1,206 individuals per month, from October 2019 to January 2020. After the onset of the pandemic, trafficc stops dropped as low as 64 stops in April 2020 and 36 stops in August 2020. The number of monthly stops rebounded, but is yet to pass the peaks seen in the period from 2015 to 2020. From November 2021 to March 2022, monthly traffic stops ranced from 376 to 544
 ## 2) How many arrests/warnings/citations were there per year (Spreadsheet 1)? Per month (Spreadsheet 2?)
 The two spreadsheets were analyzed separately because enforcement data is categorized differently, and because the two spreadsheets include different ranges of time.
 * Create a pivot table with Rows of "Year", Column as "Enforcement", and Values as COUNTA of "IncidentNumber"
@@ -83,26 +82,26 @@ Spreadsheet 1, by year
 ![RacialEnforcement](/QUESTION_3_B.png)
 ### Monthly Racial Breakdown of Enforcement Actions 2020-2022
 ![RacialEnforcement](/QUESTION_3_C.png)
-**ANSWER:** From 2015 to 2020, Black drivers were stopped at disproportionate rates compared to other races, while Asian and White drivers were stopped less, arrested less and cited at lower rates. Hispanic drivers were pulled over at a rate roughly equal to the census demographics for the city. These disparities have continued in 2020, 2021 and 2022 so far
+<br>**ANSWER:** From 2015 to 2020, Black drivers were stopped at disproportionate rates compared to other races, while Asian and White drivers were stopped less, arrested less and cited at lower rates. Hispanic drivers were pulled over at a rate roughly equal to the census demographics for the city. These disparities have continued in 2020, 2021 and 2022 so far
 ## 4) Are some racial demographics more likely to be searched during a police stop?
 Spreadsheet 1
 * Create Pivot table with Row as "Race", Columns as "Car Search" and Values as COUNTA of IncidentNumber
 ### Racial Demographics of Police Stops
 ![RacialSearch](/QUESTION_4.png)
-**ANSWER:** From 2015-2020, about 15% of all traffic stops resulted in police performing a car search. Black drivers were most likely to have undergo a car search, including 24.1% of all stops while Asian drivers were the least likely with 5.7% of stops resulting in a search. The rate of car searches was less than the portion of all stops most racial demographics made up (e.g. Black drivers made up 24.1% of stops but were 33.9% of all stops). The only exception was Hispanic drivers, who made up 12.9% of all traffic stops, and saw 16.3% of all car searches. 
+<br>**ANSWER:** From 2015-2020, about 15% of all traffic stops resulted in police performing a car search. Black drivers were most likely to have undergo a car search, including 24.1% of all stops while Asian drivers were the least likely with 5.7% of stops resulting in a search. The rate of car searches was less than the portion of all stops most racial demographics made up (e.g. Black drivers made up 24.1% of stops but were 33.9% of all stops). The only exception was Hispanic drivers, who made up 12.9% of all traffic stops, and saw 16.3% of all car searches. 
 ## 5) Did the “reason” for traffic stops change after Feb. 2021?
 * Create Pivot Table with Rows as Month-Year, Columns as Reason for Stop, Values and LEA Record ID
 ### Traffic stop "reasons" from Oct. 2020 to March 2022
 ![ReasonMonthly](/QUESTION_5.png)
-**ANSWER** No large and immediate changes, though there may be a small dip in the number of "reasonable suspicion" stops and a small uptick in "traffic violation" stops
+<br>**ANSWER:** No large and immediate changes, though there may be a small dip in the number of "reasonable suspicion" stops and a small uptick in "traffic violation" stops
 
 ## 6) Did the racial demographics of who gets pulled over change after Feb. 24, 2021, when Berkeley voted to limit low-level traffic stops? Did the demographics of who gets stopped, cited or arrested change after February 24, 2021?
 * Spreadsheet 2: Create a pivot table with Rows of "Month-Year" and "Enforcement", Columns of "Perceived Race" and Values of COUNTA of "LEA Record ID"
 * Copy/Paste data into a spreadsheet. Sort "Month-Year" by A-Z and filter for only "Arrest"
 ### Monthly number of stops from 2020-2022
-![RacialEnforcement](/QUESTION_6_C.png)
+![RacialEnforcement](/QUESTION_6C.png)
 ### Monthly number of arrests from 2020-2022
-![RacialEnforcement](/QUESTION_6_A.png)
+![RacialEnforcement](/QUESTION_6A.png)
 ### Monthly number of citations from 2020-2022
-![RacialEnforcement](/QUESTION_6_B.png)
-**ANSWER:** Overall the disparities in who gets stopped by police have slimmed slightly. Black drivers made up 41% of all stops in February 2021 and 37% of stops in March 2022. Arrests have fluctuated over the last year, but overall Black drivers still comprise a disproportionate amount of arrests in the city compared to the city's demographics. In June 2021 and September 2021, Black drivers made up over half of the police stops that ended in an arrest. In the most recent two months -- February and March 2022 -- those percentages have dropped to below 40%. 
+![RacialEnforcement](/QUESTION_6B.png)
+<br>**ANSWER:** Overall the disparities in who gets stopped by police have slimmed slightly. Black drivers made up 41% of all stops in February 2021 and 37% of stops in March 2022. Arrests have fluctuated over the last year, but overall Black drivers still comprise a disproportionate amount of arrests in the city compared to the city's demographics. In June 2021 and September 2021, Black drivers made up over half of the police stops that ended in an arrest. In the most recent two months -- February and March 2022 -- those percentages have dropped to below 40%. 
