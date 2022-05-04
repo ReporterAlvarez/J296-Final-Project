@@ -1,5 +1,5 @@
 # J296 Final Project
-### Racial Divisions Persist in Berkeley Police Traffic Stops
+**Racial Divisions Persist in Berkeley Police Traffic Stops**
 <br>_By Felicia Alvarez_<br>
 ![Berkeley Police Department](/header-image.png)
 <br> The following is a data dive into traffic stops made by the Berkeley Police Department from January 2015 to March 2022. Racial disparities have been persistent when looking at who gets stopped by Berkeley police, and which stops end in an a vehicle search or arrest. <br><br>The Berkeley City Council captured national headlines in February 2021 when they approved an initiative to limit low-level traffic stops, in an effort to lessen the racial disparities in traffic stops. About 14 months after that initiative, Black and Latino drivers are still stopped, arrested and cited by police at disproportionate rates. 
