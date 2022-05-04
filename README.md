@@ -16,7 +16,7 @@ In the year after that initiative passed, however, Black and Latino drivers are 
 <br><br>
 Whereas Black residents only make up 10.5% of the city of Berkeley, Black drivers made up 37.3% of all police stops, according to an analysis of Berkeley police stop data. Latino drivers were also overrepresented in police stops,  making up 16.4% of stops compared to 10.9% of the city’s population, according to the U.S. Census Bureau.
 <br><br>
-During the same period, white and Asian drivers were underrepresented in police stop data. White drivers made up 38.8% of stops while comprising of 65.2% of the population and Asian made up 7.5% of stops compared to 25.4% of the population.
+During the same period, white and Asian drivers were underrepresented in police stop data. White drivers made up 38.8% of stops while comprising of 65.2% of the population and Asian drivers made up 7.5% of stops compared to 25.4% of the population.
 <br><br>
 ![RaceStops](/VIZ_1.png)<br>
 <br>
@@ -45,12 +45,13 @@ At the time, the center found that Black and Latino drivers were stopped and sea
 <br><br>
 The center also found that while police searched Black drivers at higher rates, stops with a vehicle search did not yield higher rates of arrests compared to other racial groups. The racial divide in search and arrest rates was one of several findings the center described as “opportunities for improvement.”
 <br><br>
-“I’m kind of frustrated, I feel like we’re sort of maing little process,” said Councilmember Kate Harrison.
+“I’m kind of frustrated, I feel like we’re making little progress,” said Councilmember Kate Harrison.
 <br><br>
 Harrison was part of a coalition of city leaders that led the police reform effort in 2021. While she’s still supportive of the policy, she acknowledged that it doesn’t solve the greater issue of racism among the residents making calls for service into local police.
 <br><br>
 “You have to deal with racism itself that comes from the public and all of us,” Harrison said. “How do you deal with that? I don’t know.”
 <br><br>
+
 Representatives from the Berkeley Police Department did not respond to requests for comment. 
 
 # Data Diary 
